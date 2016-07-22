@@ -1,7 +1,7 @@
 	
 	body
 	{
-background:url(/assignments/htmlassignment/img/Jungle1.jpg);
+background:url(/assignments/htmlassignment/img/Jungle1.jpg) fixed;
 		
 		background-color:#201A23 ; 
 		color:#FFFFFC;	
@@ -68,21 +68,33 @@ background:url(/assignments/htmlassignment/img/Jungle1.jpg);
 	{
 		text-align: center;
 		font-family:cursive;
+		text-shadow: 5px 5px 5px #201A23;
 	}
 	.grid_4 
-	{	background-color:#585563;
+	{	/*background-color:#585563;*/
+		 background: rgba(80, 85, 90, 0.6);
 		border-radius: 20px 20px 0px 0px;
 		text-align: center;
 	}
-	.grid_6 p,h1
+	.grid_6
 	{
-		background-color:#585563;
+		background: rgba(80, 85, 90, 0.6);
 		border-radius: 20px 0px 20px 0px;
 		text-align: center;
 		padding:5px 5px 5px 5px; 
 		margin-bottom:20px;
 	}
-	.grid_6 img
+	.imgcont
+	{	background: rgba(80, 85, 90, 0.6);
+		border-radius: 20px 20px 20px 20px;
+		text-align: center;
+		padding:2px 2px 2px 2px;
+		width: 450px;
+		height: 165px;
+	}
+	.imgcont img
+	{float: left;}
+	.grid_5 img
 	{width: 160px;
 		height: 160px;
 		margin: 5px 0px 5px 0px;
@@ -91,8 +103,8 @@ background:url(/assignments/htmlassignment/img/Jungle1.jpg);
 	}
 	.patyimg
 	{
-		width: 300px;
-		height: 300px;
+		width: 270px;
+		height: 270px;
 		margin: 10px 0px 10px 0px;
 		border-radius: 130px;/*to make the images round*/	
 	}
@@ -111,11 +123,20 @@ background:url(/assignments/htmlassignment/img/Jungle1.jpg);
 		border-width:2px;
 		border-color:#F3FFB9;
 		}
+		a:hover
+		{font-family:cursive;
+		}
 		.hero a
 		{
 			font-size:25PX;
-			margin: 500px 200px;
+			margin: 50px 20px;
 		}
+		.hero p
+		{margin: 50px 20px;
+			font-size:18px;
+			width: 300px;
+			height: 100px
+		} 
 		.grid_4
 		{   border-color: #F3FFB9;
 			border-width: 2px;

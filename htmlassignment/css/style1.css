@@ -42,8 +42,6 @@ background:url(/assignments/htmlassignment/img/Jungle1.jpg);
 	{
 		font-size:30px;
 		text-shadow: 5px 5px 5px #201A23; 
-		
-
 	}
 	footer
 	{
@@ -55,7 +53,6 @@ background:url(/assignments/htmlassignment/img/Jungle1.jpg);
 		margin: 20px 0px 30px 0px;
 		border-radius: 10px 0px 10px ;
 		text-align: center;
-
 	}
 	footer img
 	{width: 50px;
@@ -72,10 +69,24 @@ background:url(/assignments/htmlassignment/img/Jungle1.jpg);
 		text-align: center;
 		font-family:cursive;
 	}
-	.grid_4
+	.grid_4 
+	{	background-color:#585563;
+		border-radius: 20px 20px 0px 0px;
+		text-align: center;
+	}
+	.grid_6 p,h1
 	{
 		background-color:#585563;
-		border-radius: 20px 20px 0px 0px;
+		border-radius: 20px 0px 20px 0px;
+		text-align: center;
+		padding:5px 5px 5px 5px; 
+		margin-bottom:20px;
+	}
+	.grid_6 img
+	{width: 160px;
+		height: 160px;
+		margin: 5px 0px 5px 0px;
+		border-radius: 130px;
 		text-align: center;
 	}
 	.patyimg
@@ -83,9 +94,7 @@ background:url(/assignments/htmlassignment/img/Jungle1.jpg);
 		width: 300px;
 		height: 300px;
 		margin: 10px 0px 10px 0px;
-		border-radius: 130px;
-		
-		
+		border-radius: 130px;/*to make the images round*/	
 	}
 	.kabout
 	{background:url(/assignments/htmlassignment/img/sharks1.jpg);	
@@ -97,11 +106,10 @@ background:url(/assignments/htmlassignment/img/Jungle1.jpg);
 		overflow: hidden;
 		clear:both;
 		background:url(/assignments/htmlassignment/img/smallchita.jpg);
-		width:960px;
+		width:959px;
 		height:400px;
 		border-width:2px;
 		border-color:#F3FFB9;
-
 		}
 		.hero a
 		{
@@ -109,12 +117,11 @@ background:url(/assignments/htmlassignment/img/Jungle1.jpg);
 			margin: 500px 200px;
 		}
 		.grid_4
-		{
-			border-color: #F3FFB9;
+		{   border-color: #F3FFB9;
 			border-width: 2px;
 		}
 	a
-	{text-decoration: none;
+	{text-decoration: none;/*to remove the under line */
 		font-size:18px;
 		color:#FFFFFC;
 	}
